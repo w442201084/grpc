@@ -13,11 +13,11 @@ api:
 
 .PHONY: proto
 proto:
-	protoc --proto_path=. --micro_out=. --go_out=:. proto/user.proto
+	protoc --proto_path=./proto --micro_out=./proto/user --go_out=:./proto/user user/user.proto
 	
 .PHONY: build
 build:
-	go build -o user *.go
+	 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o user *.go
 
 .PHONY: test
 test:
