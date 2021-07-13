@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34ebce4-2dfa-4109-ab2c-37cafe41eb0b" name="Default Changelist" comment="" />
+    <list default="true" id="c34ebce4-2dfa-4109-ab2c-37cafe41eb0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/consul/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/common/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/common/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/common/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/common/swap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/domain/model/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/domain/repository/category_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/domain/service/category_data_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/generate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/handler/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/plugin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul/proto/category/category.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +38,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -35,13 +58,16 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/consul" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/consul" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/proto" />
       <recent name="$PROJECT_DIR$/proto/cap" />
     </key>
@@ -62,9 +88,9 @@
       <screen x="0" y="0" width="1440" height="857" />
     </state>
     <state x="229" y="52" key="SettingsEditor/0.0.1440.857@0.0.1440.857" timestamp="1625982334183" />
-    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1625983424307">
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1626002088505">
       <screen x="0" y="0" width="1440" height="857" />
     </state>
-    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup/0.0.1440.857@0.0.1440.857" timestamp="1625983424307" />
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup/0.0.1440.857@0.0.1440.857" timestamp="1626002088505" />
   </component>
 </project>
