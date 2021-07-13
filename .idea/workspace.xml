@@ -5,25 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34ebce4-2dfa-4109-ab2c-37cafe41eb0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consul/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/common/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/common/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/common/mysql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/common/swap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/domain/model/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/domain/repository/category_repository.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/domain/service/category_data_service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/generate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/handler/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/plugin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul/proto/category/category.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/common/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/common/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/common/jaeger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/common/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/common/swap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/domain/model/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/domain/model/product_image.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/domain/model/product_seo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/domain/model/product_size.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/domain/repository/product_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/domain/service/product_data_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/generate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/handler/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/plugin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/productClient.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/consul/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +63,20 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/consul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/consul" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product/proto/product" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/proto" />
       <recent name="$PROJECT_DIR$/proto/cap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product" />
+      <recent name="$PROJECT_DIR$/consul" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,6 +95,10 @@
       <screen x="0" y="0" width="1440" height="857" />
     </state>
     <state x="229" y="52" key="SettingsEditor/0.0.1440.857@0.0.1440.857" timestamp="1625982334183" />
+    <state x="521" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626161139446">
+      <screen x="0" y="0" width="1440" height="857" />
+    </state>
+    <state x="521" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.857@0.0.1440.857" timestamp="1626161139446" />
     <state x="385" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1626002088505">
       <screen x="0" y="0" width="1440" height="857" />
     </state>

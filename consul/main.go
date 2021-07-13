@@ -31,7 +31,7 @@ func main() {
 
 	// New Service
 	service := micro.NewService(
-		micro.Name("go.micro.service.category"),
+		micro.Name("go.server.service.first"),
 		micro.Version("latest"),
 		//这里设置地址和需要暴露的端口
 		micro.Address("127.0.0.1:8082"),

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type Demo struct {
 	Name string
 }
@@ -11,7 +9,5 @@ func Test(demo *Demo) {
 }
 
 func main() {
-	demo := &Demo{}
-	Test(demo)
-	fmt.Println(demo)
+
 }
